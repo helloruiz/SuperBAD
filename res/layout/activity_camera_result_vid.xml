@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CameraResult" >
+
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        />
+    
+    <VideoView
+        android:id="@+id/camera_video"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_weight="2"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/camera_result_text_vid_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/font_xlarge" />
+
+        <TextView
+            android:id="@+id/camera_result_text_vid_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+
+</LinearLayout>

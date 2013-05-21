@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SuperBAD</string>
+    <string name="menu_settings">This is a menu item!</string>
+    <string name="menu_about">About SuperBAD</string>
+    <string name="menu_about_demo">About this demo</string>
+    <string name="menu_app_website">SuperBAD website</string>
+    <string name="edit_message">Type something here</string>
+    <string name="edit_file_name">Enter file name</string>
+    <string name="edit_file_data">Enter file data</string>
+    <string name="edit_dial_num">Enter phone number</string>
+    <string name="edit_email_address">Enter email address</string>
+    <string name="edit_web_address">Enter web address</string>
+    <string name="edit_location">Enter location</string>
+    <string name="title_activity_display_message">Text Input Results</string>
+    <string name="title_activity_fragment_test">Fragment Demo</string>
+    <string name="title_activity_type_amessage">Text Input Demo</string>
+    <string name="title_activity_under_construction">Under Construction</string>
+    <string name="title_activity_data_demo">Data Demo</string>
+    <string name="title_activity_app_interaction">App Interaction Demo</string>
+    <string name="title_activity_audio_demo">Audio Playback Demo</string>
+    <string name="title_activity_camera_demo">Camera Demo</string>
+    <string name="title_activity_camera_result">Camera Result</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="button_type_amessage">Go</string>
+    <string name="button_create">Create</string>
+    <string name="button_write">Write</string>
+    <string name="button_read">Read</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_dial">Dial</string>
+    <string name="button_send">Send</string>
+    <string name="button_go">Go</string>
+    <string name="button_share">Share</string>
+    <string name="button_search">Search</string>
+    <string name="button_play">Play</string>
+    <string name="button_stop">Stop</string>
+    <string name="button_take_photo">Capture a photo</string>
+    <string name="button_take_video">Capture a video</string>
+    <string name="section_questions">Questions (List Fragment)</string>
+    <string name="section_answer">Answer (Normal Fragment)</string>
+    <string name="section_create">File Create</string>
+    <string name="section_write">File Write</string>
+    <string name="section_read">File Read</string>
+    <string name="section_delete">File Delete</string>
+    <string name="section_dial_num">Dial a number</string>
+    <string name="section_send_email">Compose an email</string>
+    <string name="section_browse_web">Open a webpage</string>
+    <string name="section_share_app">Share this app!</string>
+    <string name="section_find_loc">Find a location</string>
+    <string name="section_playback_controls">Playback Controls</string>
+    <string name="extra_share_text">Check out SuperBAD, and Android programming demo app made by Ruiz. http://helloruiz.com/projects/superbad/</string>
+    <string name="extra_song_info1">World Map</string>
+    <string name="extra_song_info2">DKTHGK</string>
+    <string name="extra_song_info3">Square One</string>
+    <string name="desc_music_cover">The cover art for the music.</string>
+	<string name="desc_camera_result">The photo taken using the camera.</string>
+	<string name="dialog_about">
+        Super Basic Android Demo\nVersion 1.01\n\nCreated by Ruiz Akpan\nhttp://helloruiz.com\nruiz.akpan@gmail.com\n\nA simple Android demo created over the simple desire of wanting to simply learn about Android programming.\n\nBased on lessons taught from the Android Developers website.\n\nCreated Dec 2012 - Jan 2013.</string>
+    <string name="dialog_about_demo_text_input">This is a \"Hello World!\" style demo that simply takes in a text input value from the user, and passes it along to another activity.\n\nCompared to other demos, this demo is excruciatingly basic and was done within the first hour of learning to program in Android.</string>
+    <string name="dialog_about_demo_fragment">Info about this demo is already contained within it. Play around!</string>
+    <string name="dialog_about_demo_data">This demo will create, write to, read from, and delete data within a directory called \'SuperBAD\' in the \'Download\' folder of your SD card.\n\nYou must have an SD card (internal or external) installed for this demo.\n\nIf data is unable to be manipulated for whatever reason, the demo will let you know.</string>
+    <string name="dialog_about_demo_app_interaction">This demo gives a few options for interacting with other apps.\n\nIt\'s best to have a phone, email, browser, and map app installed so that you can try out all of the functions. If there\'s no app available for the function you\'re trying to perform, the demo will let you know.</string>
+    <string name="dialog_about_demo_audio">This demo will play a small audio track. This demo does not respond to media control inputs such as the ones from keyboards, headsets, or bluetooth devices.\n\nWhile the function of the demo is simple, coding it was a bit trickier when compared to other demos.</string>
+    <string name="dialog_about_demo_camera">This demo will take a photo or video using the camera and display it back to you.\n\nA working camera app is needed to use this demo. You must also have an SD card (internal or external) installed.\n\nPhotos are saved in a directory called \'SuperBAD\' in the \'Pictures\' folder of your SD card. Videos are saved in their default location.\n\nIf your image appears rotated, it\'s an issue with certain manufacturer cameras, namely Samsung. The result shouldn\'t be rotated when viewing the photo within the \'Gallery\' app.</string>
+    
+</resources>

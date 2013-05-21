@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.helloruiz.superbad"
+    android:versionCode="1"
+    android:versionName="1.01" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+"
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MyTheme" >
+        <activity
+            android:name="com.helloruiz.superbad.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.helloruiz.superbad.textinput.TypeAMessage"
+            android:label="@string/title_activity_type_amessage"
+            android:parentActivityName="com.helloruiz.superbad.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.helloruiz.superbad.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.helloruiz.superbad.textinput.DisplayMessageActivity"
+            android:label="@string/title_activity_display_message"
+            android:parentActivityName="com.helloruiz.superbad.textinput.TypeAMessage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="textinput.TypeAMessage" />
+        </activity>
+        <activity
+            android:name="com.helloruiz.superbad.UnderConstruction"
+            android:label="@string/title_activity_under_construction"
+            android:parentActivityName="com.helloruiz.superbad.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.helloruiz.superbad.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.helloruiz.superbad.frag.FragmentTest"
+            android:label="@string/title_activity_fragment_test"
+            android:parentActivityName="com.helloruiz.superbad.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.helloruiz.superbad.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.helloruiz.superbad.data.DataDemo"
+            android:label="@string/title_activity_data_demo"
+            android:parentActivityName="com.helloruiz.superbad.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.helloruiz.superbad.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.helloruiz.superbad.appint.AppInteraction"
+            android:label="@string/title_activity_app_interaction"
+            android:parentActivityName="com.helloruiz.superbad.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.helloruiz.superbad.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.helloruiz.superbad.audio.AudioDemo"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_audio_demo"
+            android:parentActivityName="com.helloruiz.superbad.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.helloruiz.superbad.MainActivity" />
+        </activity>
+
+        <receiver android:name=".RemoteControlReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.helloruiz.superbad.camera.CameraDemo"
+            android:label="@string/title_activity_camera_demo"
+            android:parentActivityName="com.helloruiz.superbad.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.helloruiz.superbad.MainActivity" />
+        </activity>
+        <activity
+            android:name=".camera.CameraResult"
+            android:label="@string/title_activity_camera_result"
+            android:parentActivityName="com.helloruiz.superbad.camera.CameraDemo" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.helloruiz.superbad.camera.CameraDemo" />
+        </activity>
+    </application>
+
+</manifest>

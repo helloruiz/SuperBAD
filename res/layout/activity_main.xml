@@ -1,0 +1,206 @@
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:background="@color/light_blue"
+                android:textColor="@color/white"
+                android:padding="5dp"
+                android:gravity="center_vertical"
+                android:onClick="textInputDemo"
+                android:text="@string/title_activity_type_amessage" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:padding="5dp"
+                android:onClick="textInputDemo"
+                android:text="@string/button_go" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:background="@color/light_purple"
+                android:textColor="@color/white"
+                android:padding="5dp"
+                android:gravity="center_vertical"
+                android:onClick="fragmentDemo"
+                android:text="@string/title_activity_fragment_test" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/purple"
+                android:textColor="@color/white"
+                android:padding="5dp"
+                android:onClick="fragmentDemo"
+                android:text="@string/button_go" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:background="@color/light_green"
+                android:textColor="@color/white"
+                android:padding="5dp"
+                android:gravity="center_vertical"
+                android:onClick="dataDemo"
+                android:text="@string/title_activity_data_demo" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/green"
+                android:textColor="@color/white"
+                android:padding="5dp"
+                android:onClick="dataDemo"
+                android:text="@string/button_go" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:background="@color/light_yellow"
+                android:textColor="@color/white"
+                android:padding="5dp"
+                android:gravity="center_vertical"
+                android:onClick="appIntDemo"
+                android:text="@string/title_activity_app_interaction" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/yellow"
+                android:textColor="@color/white"
+                android:padding="5dp"
+                android:onClick="appIntDemo"
+                android:text="@string/button_go" />
+        </LinearLayout>
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:background="@color/light_red"
+                android:textColor="@color/white"
+                android:padding="5dp"
+                android:gravity="center_vertical"
+                android:onClick="audioDemo"
+                android:text="@string/title_activity_audio_demo" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/red"
+                android:textColor="@color/white"
+                android:padding="5dp"
+                android:onClick="audioDemo"
+                android:text="@string/button_go" />
+        </LinearLayout>
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:background="@color/light_blue"
+                android:textColor="@color/white"
+                android:padding="5dp"
+                android:gravity="center_vertical"
+                android:onClick="cameraDemo"
+                android:text="@string/title_activity_camera_demo" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:padding="5dp"
+                android:onClick="cameraDemo"
+                android:text="@string/button_go" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
