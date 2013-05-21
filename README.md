@@ -4,8 +4,10 @@ SuperBAD - Super Basic Android Demo
 Version 1.01
 
 Created by Ruiz Akpan
+
 ruiz.akpan@gmail.com
-http://helloruiz.com
+
+http://helloruiz.com/projects/superBAD
 
 A simple Android demo created over the simple desire of wanting to simply learn about Android programming.
 
